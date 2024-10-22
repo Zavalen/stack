@@ -13,7 +13,7 @@ public class Program4 {
                 BufferedReader br = new BufferedReader(new FileReader("Program4.txt"));
                 BufferedWriter bw = new BufferedWriter(new FileWriter("Program4.out"));
 
-                bw.write("Zackary Valencia \n Array Stack \n");
+                bw.write("Zava \n Array Stack \n");
                 while ((line = br.readLine()) != null) {
                     String infix = line.trim();
                     String postfix = InfixToPostfix(infix);
